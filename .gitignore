@@ -1,0 +1,52 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Python byte code
+*.pyc
+
+# Bjam files (temporary)
+Jamfile
+Jamroot
+*.jam
+*.log
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+
+# Codeblocks generated files and directories
+*.depend
+*.layout
+bin
+obj
+lib
