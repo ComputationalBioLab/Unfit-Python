@@ -95,6 +95,7 @@ This project is built with:
 * CodeBlocks
 * Python 2.7
 * Python unittest
+* Boost.Python
 
 Development is mainly done in MacOS environment, but this is also ocassionally tested in Windows and Linux environment.
 
