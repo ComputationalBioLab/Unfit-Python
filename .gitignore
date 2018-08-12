@@ -34,12 +34,6 @@
 # Python byte code
 *.pyc
 
-# Bjam files (temporary)
-Jamfile
-Jamroot
-*.jam
-*.log
-
 # OS Generated Files
 .DS_Store
 .DS_Store?
