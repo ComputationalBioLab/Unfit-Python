@@ -51,12 +51,12 @@ ___
 Derive a class from the GenericCostFunction class in libUnfitPython module, as demonstrated in mycostfunction.py, changing the model in the following segment as needed:
 ~~~python
 def __call__(self, x):
-r = libUnfitPython.std_vector_double()
-r[:] = self.y[:]
-for i, ti in enumerate(self.t):
-model = x[0] + x[1] * ti        #change this
-r[i] -= model
-return r
+    r = libUnfitPython.std_vector_double()
+    r[:] = self.y[:]
+    for i, ti in enumerate(self.t):
+        model = x[0] + x[1] * ti        #change this
+        r[i] -= model
+    return r
 ~~~
 #### Solving problem
 Do the following syntax, and the results will be stored in initial_guess:
