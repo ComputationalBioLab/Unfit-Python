@@ -13,7 +13,6 @@ This allows use of [Unfit](https://github.com/ComputationalBioLab/Unfit) through
 * [Development Environment](#development-environment)
 * [Contributing](#contributing)
 * [License](#license)
-* [Acknowledgements](#acknowledgements)
 
 ### Getting Started
 ___
@@ -21,24 +20,30 @@ ___
 
 Note: if you are on Windows, choose the version with GCC (mingw)
 
-2. Download Unfit-Python, e.g:
+2. Download & install Boost-Python. 
+
+On MacOS, do the following:
+~~~clang
+brew install boost-python
+~~~
+3. Download Unfit-Python, e.g:
 
 ```terminal
 git clone https://github.com/NicholasCF/Unfit-Python
 ```
 
-3. Download Unfit in the **same** directory, e.g:
+4. Download Unfit in the **same** directory, e.g:
 ```terminal
 git clone https://github.com/ComputationalBioLab/Unfit.git
 ```
-4. Start Code::Blocks and open the Unfit project file (Unfit.cbp) in the Unfit folder
-5. In the Unfit project, choose the Library option, then Build
-6. Open the Unfit-Python project file (UnfitPython.cbp) in the Unfit-Python folder with Code::Blocks
-7. Build the Unfit-Python project with the Debug option.
+5. Start Code::Blocks and open the Unfit project file (Unfit.cbp) in the Unfit folder
+6. In the Unfit project, choose the Library option, then Build
+7. Open the Unfit-Python project file (UnfitPython.cbp) in the Unfit-Python folder with Code::Blocks
+8. Build the Unfit-Python project with the Debug option.
 
 Currently, in MacOS, the result is a __*.dylib__ file. Simply rename this to a __*.so__ file.
 
-8. Execute the _main.py_ Python file to run an example.
+9. Execute the _main.py_ Python file to run an example.
 
 ### Usage
 ___
@@ -95,7 +100,7 @@ Development is mainly done in MacOS environment, but this is also ocassionally t
 
 ### Contributing
 ___
-We are serious about this being around for a long time and hopefully becoming useful to more and more people. After much study, we have decided to require contributing license agreements (CLAs) from our contributors to keep our work open. Our CLA is adapted directly from the one used by the Apache Foundation, and can be found [here](https://computationalbiolab.github.io/assets/cla/IndividualContributorLicenseAgreement.pdf). If you are interested in how a CLA protects you as well as us, a good explanation is given [here](https://julien.ponge.org/blog/in-defense-of-contributor-license-agreements/). In case you can't be bothered reading the whole thing, here is our summary of the key points of the CLA:
+We are serious about this being around for a long time and hopefully becoming useful to more and more people. After much study, we have decided to require contributing license agreements (CLAs) from our contributors to keep our work open. Our CLA is adapted directly from the one used by the Apache Foundation, and can be found [here](https://computationalbiolab.github.io/assets/cla/IndividualContributorLicenseAgreement.pdf). If you are interested in how a CLA protects you as well as us, a good explanation is given [here](https://julien.ponge.org/blog/in-defense-of-contributor-license-agreements/). In case you can't be bothered to read the whole thing, here is our summary of the key points of the CLA:
 
 1. (Just definitions)
 2. You still own what you contribute, and can do **whatever you want** with it, but you allow us to use it forever, so we don't have to worry that you will change your mind and take it back
@@ -109,12 +114,3 @@ If you just want to use our work, you don't have to sign anything - just use it.
 ### License
 ___
 This project is licensed under the GNU General Public License version 3.0 - see the [LICENSE.md](https://github.com/NicholasCF/Unfit-Python/blob/master/LICENSE) file for details
-
-
-
-
-
-
-
-
-
