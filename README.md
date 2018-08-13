@@ -37,16 +37,14 @@ git clone https://github.com/NicholasCF/Unfit-Python
 git clone https://github.com/ComputationalBioLab/Unfit.git
 ```
 
-   The last known commit to work is 637521d on the master branch.
+   The last known commit to work is __637521d__ on the master branch.
    
 5. Start Code::Blocks and open the Unfit project file (Unfit.cbp) in the Unfit folder
 6. In the Unfit project, choose the Library option, then Build
 7. Open the Unfit-Python project file (UnfitPython.cbp) in the Unfit-Python folder with Code::Blocks
 8. Build the Unfit-Python project with the Debug option.
-
-Currently, in MacOS, the result is a __*.dylib__ file. Simply rename this to a __*.so__ file.
-
-9. Execute the _main.py_ Python file to run an example.
+9. Change the output file name, which is a __\*.dylib__ in MacOS, to __libUnfitPython.so__
+10. Execute the _main.py_ Python file to run an example.
 
 ### Usage
 ___
