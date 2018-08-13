@@ -36,6 +36,9 @@ git clone https://github.com/NicholasCF/Unfit-Python
 ```terminal
 git clone https://github.com/ComputationalBioLab/Unfit.git
 ```
+
+   The last known commit to work is 637521d on the master branch.
+   
 5. Start Code::Blocks and open the Unfit project file (Unfit.cbp) in the Unfit folder
 6. In the Unfit project, choose the Library option, then Build
 7. Open the Unfit-Python project file (UnfitPython.cbp) in the Unfit-Python folder with Code::Blocks
@@ -86,7 +89,7 @@ There are two sets of tests, in the TestExamples and Unittest folders, made with
 
 The TestExamples tests serves as an example for users to follow in using Unfit, and check that access of Unfit through Python does not affect results. To run all tests, exectute the TestExamples module. To run individual tests, execute the relevant modules.
 
-The Unittest tests ensures that the functions and objects behave in the same way as their C++ counterparts, and no compatibility issues arise between C++ and Python. Similarly, to run all tests, exectute the Unittest module. To run individual tests, execute the relevant modules.
+The Unittest tests ensures that the functions and objects behave in the same way as their C++ counterparts, and no compatibility issues arise between C++ and Python. The code can also be viewed as an example on how to call the functions, especially the Bounds and Options classes. Similarly, to run all tests, exectute the Unittest module. To run individual tests, execute the relevant modules.
 
 ### Development Environment
 ___
