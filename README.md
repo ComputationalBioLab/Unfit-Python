@@ -63,12 +63,12 @@ Do the following syntax, and the results will be stored in initial_guess:
 
 ~~~python
 initial_guess = libUnfitPython.std_vector_double()
-initial_guess[:] = [guess1, guess2, ...]
+initial_guess[:] = [guess1, guess2, ...]        #do not put initial_guess = [guess1, guess2, ...]
 
-cf = CostFunction()
-cf = Initialise(x_data, y_data)        #the data to be put into cost function
+cf = CostFunction(x_data, y_data)               #your cost function
+                                                #x_data and y_data are the data to be put into cost function
 
-op = libUnfitPython.Optimizer()        #replace 'Optimizer' with any of the optimizer names
+op = libUnfitPython.Optimizer()                 #replace 'Optimizer' with any of the optimizer names
 op.FindMin(cf, initial_guess)
 ~~~
 
